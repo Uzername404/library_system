@@ -1,0 +1,116 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    background-color: #fff;
+}
+
+/* Button styling */
+/* General Styling for Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Default Button */
+.btn {
+    background-color: #4CAF50; /* Green */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Edit Button */
+table .btn.edit {
+    background-color: #ff9800; /* Orange */
+}
+
+table .btn.edit:hover {
+    background-color: #fb8c00; /* Darker orange */
+}
+
+/* Borrow Button */
+table .btn.borrow {
+    background-color: #2196F3; /* Blue */
+}
+
+table .btn.borrow:hover {
+    background-color: #1976D2; /* Darker blue */
+}
+
+/* Return Button */
+table .btn.return {
+    background-color: #4CAF50; /* Green */
+}
+
+table .btn.return:hover {
+    background-color: #388E3C; /* Darker green */
+}
+
+/* Delete Button */
+table .btn.delete {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+table .btn.delete:hover {
+    background-color: #e53935; /* Darker red */
+}
+
+/* Confirm Button Styling */
+table .btn.confirm {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+table .btn.confirm:hover {
+    background-color: #388E3C; /* Darker green */
+}
